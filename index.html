@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bootstrap-social-gh-pages/bootstrap-social.css">
+  <!-- material icons, for email icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="cover.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Start of Home section -->
+  <div id="home" class="parallax">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand">Daniel Florencio</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about" onClick="document.getElementById('about').scrollIntoView();">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="mailto:danflorencio@outlook.com" target="_top"><span class="glyphicon glyphicon-envelope"></span></a></li>
+          <!-- btn-linkedin -->
+          <!-- btn-github -->
+          <li><a class="btn btn-social-icon btn-linkedin" onclick="window.open('https://www.linkedin.com/in/daniel-florencio/','_blank')"><span class="fa fa-linkedin"></span></a></li>
+          <li><a class="btn btn-social-icon btn-github" onclick="window.open('https://github.com/danflorencio','_blank')"><span class="fa fa-github"></span></a></li>
+          <!--<li><a class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a></li>-->
+        </ul>
+      </div>
+    </nav>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <!--<div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav class="nav nav-masthead">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Contact</a>
+              </nav>
+            </div>
+          </div>-->
+          <div class="inner cover">
+            <h1 class="cover-heading">Programmer.</h1>
+            <!--<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+            </p>-->
+          </div>
+          <!--<div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Home section -->
+
+  <!-- Start of About section -->
+  <div id="about" class="parallax2">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">About:</h1>
+              <p class="lead">My name is Daniel Florencio. I am a computer science student at UC San Diego, graduating in December 2017 and seeking employment. This is my personal website.</p>
+                <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End About section -->
+
+  <!-- Start Education and Experience section -->
+  <div id="education" class="parallax3" href="#education">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="cover-heading">Education & Experience:</h1>
+              <p class="lead">During my short time at UCSD I was involved in the Global TIES program, working on humanitarian software projects and teaching computer science to kids.</p>
+                <a class="btn btn-lg btn-secondary" onclick="window.open('http://globalties.ucsd.edu/','_blank')">Learn more about Global TIES</a>
+              </p>
+              <br>
+              <p class="lead">I was also briefly involved in undergraduate research with Engineers for Exploration.</p>
+                <a class="btn btn-lg btn-secondary" onclick="window.open('http://e4e.ucsd.edu','_blank')">Learn more about E4E</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Education and Experience -->
+
+  <div id="projects" class="parallax4">
+  <!-- Jumbotron-->
+    <div class="container-fluid">
+      <div class="jumbotron" style="background-color: #483D8B;">
+        <h1>Software Projects</h1>
+          <p class="lead">A handful of software projects authored by myself.</p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <h2><i class="fa fa-chrome" style="font-size:36px"></i> Whiteboard Prep</h2>
+            <p>Chrome extension that lists various programming challenges to help prepare programmers for software engineering interviews.</p>
+            <p>Implemented using a webscraper to grab JSON data from Codewars.com</p>
+            <p><a class="btn btn-primary" role="button" onclick="window.open('https://chrome.google.com/webstore/detail/whiteboard-prep/khfhbclbanjdofelfjnelffecfmgomli','_blank')">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><i class="fa fa-chrome" style="font-size:36px"></i> Quora Login Blocker</h2>
+            <p>Chrome extension that blocks login prompts from Quora.</p>
+            <p><a class="btn btn-primary" role="button" onclick="window.open('https://chrome.google.com/webstore/detail/quora-login-blocker/icnkgmbbkeobmpliahienehjcdpbniml','_blank')">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><i class="fa fa-apple" style="font-size:36px"></i> Base Convert</h2>
+            <p>Unpublished iOS application to convert between different numerical bases.</p>
+            <p><a class="btn btn-primary" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      <div class="footer" style="margin-bottom:2cm;">
+        <!--<h2><i class="fa fa-apple" style="font-size:36px"></i> Base Convert</h2>-->
+        <p>If you'd like to see how I created my website, I've uploaded all the source code for it.</p>
+        <p><a class="btn btn-primary" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+  </div> <!-- End Projects section -->
+
+  <div id="connect" class="parallax5">
+    <div class="container-fluid">
+      <div class="row vertical-center">
+        <div class="col-sm-4">
+          <h1>Contact</h1>
+          <h3><i class="fa fa-envelope" aria-hidden="true" style="font-size:200%;"></i> danflorencio@outlook.com</h3>
+          <br>
+        </div>
+        <div class="col-sm-4">
+          <h1>Résumé</h1>
+          <a class="btn btn-info btn-lg" onclick="window.open('./dan-florencio-resume.pdf','_blank')">
+            <span class="glyphicon glyphicon-file"></span> Résumé
+          </a>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="col-sm-4">
+          <h1>Social</h1>
+          <!--<i class="fa fa-linkedin-square" onclick="window.open('https://www.linkedin.com/in/daniel-florencio/','_blank')" style="font-size:60px; margin-right:15px;"></i>
+          <i class="fa fa-github-square" style="font-size:60px;"></i>-->
+          <a class="btn btn-block btn-social btn-linkedin" style="font-size:200%;" onclick="window.open('https://www.linkedin.com/in/daniel-florencio/','_blank')">
+            <span class="fa fa-linkedin" ></span> LinkedIn
+          </a>
+          <a class="btn btn-block btn-social btn-github" style="font-size:200%;" onclick="window.open('https://github.com/danflorencio','_blank')">
+            <span class="fa fa-github"></span> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> <!--End Connect section -->
+</body>
+</html>

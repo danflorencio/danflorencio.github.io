@@ -1,0 +1,130 @@
+.parallax {
+    /* The image used */
+    background-image: url('./images/code1.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  white-space: nowrap;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.glyphicon.glyphicon-envelope {
+    font-size: 75%;
+    top: 2px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('./images/i5.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('./images/geisel3.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+.quad {
+  width:50%;
+  height:100%;
+  float:left;
+
+}
+
+.line {
+  height:50%;
+  width:100%;
+}
+
+.equal, .equal > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 0 auto;
+}*/
+
+/* oi!
+.tl { position: absolute; top: 0; left: 0; right: 50%; bottom: 50%;
+      background: red; border:solid #000; border-width: 0 10px 10px 0; }
+.tr { position: absolute; top: 0; left: 50%; right: 0; bottom: 50%;
+      background: blue; border:solid #000; border-width: 0 0 10px 0; }
+.bl { position: absolute; top: 50%; left: 0; right: 50%; bottom: 0;
+      background: yellow; border:solid #000; border-width: 0 10px 0 0; }
+.br { position: absolute; top: 50%; left: 50%; right: 0; bottom: 0;
+      background: green; } */
+
+
+.parallax4 {
+    /* The image used */
+    /*background-color: #00BFFF;*/
+    background-color: #483D8B;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url('./images/luma.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-linkedin-square:hover{
+  background: grey; /* make this whatever you want */
+}
