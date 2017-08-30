@@ -6,7 +6,7 @@
     height: 100%;
 
     /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,13 +37,13 @@ body, html {
 
 .parallax2 {
     /* The image used */
-    background-image: url('./images/i5.jpg');
+    background-image: url('./images/geisel1.jpg');
 
     /* Full height */
     height: 100%;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
