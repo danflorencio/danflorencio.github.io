@@ -78,6 +78,20 @@ body, html {
     background-size: cover;
 }
 
+#CV {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 200%;
+}
+
+#CV:hover {
+    color: green;
+}
+
 .parallax5 {
     /* The image used */
     background-image: url('./images/luma.jpg');
