@@ -1,4 +1,4 @@
-.parallax {
+.home {
     /* The image used */
     background-image: url('./images/code1.jpg');
 
@@ -35,7 +35,7 @@ body, html {
     top: 2px;
 }
 
-.parallax2 {
+.about {
     /* The image used */
     /*background-image: url('./images/blur1.jpg');*/
     background-color: #222233;
@@ -51,7 +51,7 @@ body, html {
     background-size: cover;
 }
 
-.parallax3 {
+.education {
     /* The image used */
     background-image: url('./images/geisel3.jpg');
 
@@ -65,7 +65,7 @@ body, html {
     background-size: cover;
 }
 
-.parallax4 {
+.projects {
     /* The image used */
     /*background-color: #00BFFF;*/
     background-color: #483D8B;
@@ -95,7 +95,7 @@ body, html {
     color: green;
 }
 
-.parallax5 {
+.connect {
     /* The image used */
     background-image: url('./images/luma.jpg');
 

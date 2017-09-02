@@ -11,22 +11,23 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scroll.js"></script>
   <link href="cover.css" rel="stylesheet">
 </head>
 <body>
   <!-- Start of Home section -->
-  <div id="home" class="parallax">
+  <div id="home" class="home">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand">Daniel Florencio</a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education & Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#connect">Connect</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('home'))">Home</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('about'))">About</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('education'))">Education & Experience</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('projects'))">Projects</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('connect'))">Connect</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="mailto:danflorencio@outlook.com" target="_top"><span class="glyphicon glyphicon-envelope"></span></a></li>
@@ -71,7 +72,7 @@
   </div> <!-- End Home section -->
 
   <!-- Start of About section -->
-  <div id="about" class="parallax2">
+  <div id="about" class="about">
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container-fluid">
@@ -95,7 +96,7 @@
   </div> <!-- End About section -->
 
   <!-- Start Education and Experience section -->
-  <div id="education" class="parallax3" href="#education">
+  <div id="education" class="education">
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
@@ -115,7 +116,7 @@
   </div> <!-- End Education and Experience -->
 
   <!-- Start Projects section -->
-  <div id="projects" class="parallax4">
+  <div id="projects" class="projects">
   <!-- Jumbotron-->
     <div class="container-fluid">
       <div class="jumbotron" style="background-color: #483D8B;">
@@ -149,7 +150,7 @@
     </div>
   </div> <!-- End Projects section -->
 
-  <div id="connect" class="parallax5">
+  <div id="connect" class="connect">
     <div class="container-fluid">
       <div class="row vertical-center">
         <!--<div class="col-sm-4">
