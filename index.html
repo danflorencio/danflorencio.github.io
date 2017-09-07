@@ -26,6 +26,7 @@
           <li><a onclick="smoothScroll(document.getElementById('home'))">Home</a></li>
           <li><a onclick="smoothScroll(document.getElementById('about'))">About</a></li>
           <li><a onclick="smoothScroll(document.getElementById('education'))">Education & Experience</a></li>
+          <li><a onclick="smoothScroll(document.getElementById('skills'))">Skills & Coursework</a></li>
           <li><a onclick="smoothScroll(document.getElementById('projects'))">Projects</a></li>
           <li><a onclick="smoothScroll(document.getElementById('connect'))">Connect</a></li>
         </ul>
@@ -55,7 +56,7 @@
             </div>
           </div>-->
           <div class="inner cover">
-            <h1 class="cover-heading">Programmer.</h1>
+            <h1 class="cover-heading">Engineer.</h1>
             <!--<p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
@@ -115,11 +116,61 @@
     </div>
   </div> <!-- End Education and Experience -->
 
+  <div id="skills" class="skills">
+    <div class="container-fluid">
+      <h1>Skills & Coursework:</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Programming Languages:</h2>
+          <center>
+          <h3>
+            C / C++
+            <br>Java
+            <br>Python
+            <br>SQL
+            <br>JavaScript
+          </h3>
+        </div>
+        <div class="col-sm-4">
+          <h2>Tools & Frameworks:</h2>
+          <h3>
+            Git
+            <br>Unix / Linux
+            <br>iOS
+            <br>HTML
+            <br>CSS
+            <br>Bootstrap
+            <br>jQuery
+            <br>React.js
+          </h3>
+        </div>
+        <div class="col-sm-4">
+          <h2>Coursework:</h2>
+          <h3>
+            Advanced Data Structures
+            <br>Advanced Algorithms
+            <br>Software Engineering
+            <br>Operating Systems
+            <br>Compiler Construction
+            <br>Database System Principles
+            <br>Parallel Computing
+            <br>Interaction Design
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- quick fix to showcase ucsd cse logo -->
+  <div id="logo" class="container-fluid" style="background-color: white;">
+    <img src="./images/cseLogo.gif" style="width:50%;">
+  </div>
+
   <!-- Start Projects section -->
   <div id="projects" class="projects">
   <!-- Jumbotron-->
     <div class="container-fluid">
-      <div class="jumbotron" style="background-color: #483D8B;">
+      <div class="jumbotron" style="background-color: #0091ea;">
         <h1>Software Projects</h1>
           <p class="lead">A handful of software projects authored by myself.</p>
           <p><a class="btn btn-lg btn-success" onclick="window.open('https://github.com/danflorencio','_blank')" role="button">View on GitHub</a></p>
@@ -128,7 +179,7 @@
         <div class="col-lg-4">
           <h2><i class="fa fa-chrome" style="font-size:36px;"></i> Whiteboard Prep</h2>
             <p>Chrome extension that lists various programming challenges to help prepare programmers for software engineering interviews.</p>
-            <p>Implemented using a webscraper to grab JSON data from Codewars.com</p>
+            <p>Implemented a Python webscraper to grab JSON data from Codewars.com</p>
             <p><a class="btn btn-primary btn-success" role="button" onclick="window.open('https://chrome.google.com/webstore/detail/whiteboard-prep/khfhbclbanjdofelfjnelffecfmgomli','_blank')">View on Chrome Web Store &raquo;</a></p>
         </div>
         <div class="col-lg-4">
@@ -139,6 +190,7 @@
         <div class="col-lg-4">
           <h2><i class="fa fa-apple" style="font-size:36px;"></i> Base Convert</h2>
             <p>Unpublished iOS application to convert between different numerical bases.</p>
+            <p>Supports binary, octal, decimal and hexadecimal numbers.</p>
             <!--<p><a class="btn btn-primary" role="button">View details &raquo;</a></p>-->
         </div>
       </div>
@@ -185,6 +237,7 @@
           </a>
         </div>
       </div>
+
     </div>
   </div> <!--End Connect section -->
 </body>

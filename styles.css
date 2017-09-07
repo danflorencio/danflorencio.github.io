@@ -65,10 +65,21 @@ body, html {
     background-size: cover;
 }
 
+.skills {
+  height: 66%;
+
+  background-color: #0091ea;
+  padding-top: 60px;
+}
+
+#logo {
+  height: 34%;
+}
+
 .projects {
     /* The image used */
     /*background-color: #00BFFF;*/
-    background-color: #483D8B;
+    background-color: #0091ea;
     /*background-color: #222233;*/
 
     /* Full height */
