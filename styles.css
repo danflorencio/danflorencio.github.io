@@ -35,9 +35,9 @@ body, html {
     top: 2px;
 }
 
-.about {
+.introduction {
     /* The image used */
-    /*background-image: url('./images/blur1.jpg');*/
+    background-image: url('./images/i5.jpg');
     background-color: #222233;
     /*background-color: Olive*/
 
@@ -45,7 +45,7 @@ body, html {
     height: 100%;
 
     /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
