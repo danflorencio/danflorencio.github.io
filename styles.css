@@ -54,15 +54,40 @@ body, html {
 .education {
     /* The image used */
     background-image: url('./images/geisel3.jpg');
+    padding-top: 60px;
 
     /* Full height */
     height: 100%;
+    width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.left {
+  width: 33.3%;
+  height: 100%;
+  padding-top: 8%;
+  padding-left: 1%;
+  float: left;
+}
+
+.middle {
+  width: 33.3%;
+  height: 100%;
+  padding-top: 20%;
+  float: left;
+}
+
+.right {
+  width: 33.4%;
+  height: 100%;
+  padding-top: 8%;
+  padding-right: 1%;
+  float: right;
 }
 
 .skills {
